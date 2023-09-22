@@ -1,0 +1,183 @@
+@import url(https://fontawesome.com/icons/at?f=classic&s=solid&pc=%23f61c04);
+
+
+body{ background: rgb(93,72,108);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(55,2,71,1) 50%, rgba(0,0,0,1) 100%);
+        position: relative;
+        padding: 50px;
+
+}
+
+.card-photo > img {
+    margin-bottom: auto;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 90%;
+    opacity: 0.9;
+    position: relative;
+  height: 20%;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #ffffff;
+  bottom: 30%;
+
+
+
+}
+
+.description {
+    position: absolute;
+    left: 30px;
+  font-size: 18px;
+  color: rgb(249, 249, 251);
+  bottom: 30%;
+  
+
+}
+
+.description > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    
+}
+
+.description > h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffffeb;
+   bottom: 10%;
+}
+
+.description > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffffa5;
+    
+}
+
+
+.menubar{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	z-index: 999;
+width: 100%;
+height: 40px;
+font-size: 20px;
+
+    
+
+
+
+}
+.menubar{
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+    position: absolute;
+    left: 340px;
+    top: 1%;
+    position: fixed;
+    top: 0;
+
+    
+
+
+
+}
+.menubar{
+	display: flex;
+	margin: auto;
+	align-items: center;
+}
+
+.menubar > ul{
+	display:flex;
+	list-style-type: none;
+   
+}
+
+.menubar > ul >li{
+	padding: 5px;
+	margin-right: 15px;
+  
+}
+
+.menubar > ul >li >a {
+	text-decoration: none;
+	color: rgba(198, 196, 196, 0.927);
+font-family: initial;
+padding: 5px;
+}
+
+.menubar > ul >li >a:hover {
+color: #ffffff;
+font-weight: 900;
+
+
+
+}
+
+.pe {
+    position: absolute;
+    align-items: center;
+    left: 350px;
+    display: flex;
+    font-size: 30px;
+
+}
+
+
+.pe >a {
+    margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0,5s;
+    background: rgb(0,0,0,0);
+    font-size: 2.5em;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.0) rgba(0,0,0,0.4));
+
+
+}
+
+.pe> a:hover{
+    background-color: var(color);
+    color: #050801;
+    box-shadow: 0 0 5px var(color),
+    0 0 25px var(color),
+    0 0 50px var(color),
+    0 0 200px var(color);
+
+}
+
+
+.buttoon > button {
+    left: 1250px;
+    position: absolute;
+    align-items: left;
+    display: flex;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.buttoon > .button2 {
+    left: 1200px;
+    
+}
+
+
+.buttoon> button {
+    transition-duration: 0.4s;
+  }
+  
+  .buttoon> button:hover {
+    background-color: #051205; /* Green */
+    color: rgb(93,72,108);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(55,2,71,1) 50%, rgba(0,0,0,1) 100%);
+  }
