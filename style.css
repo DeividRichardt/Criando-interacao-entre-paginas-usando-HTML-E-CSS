@@ -8,19 +8,29 @@ body{ background: rgb(93,72,108);
 
 }
 
+.cybo {
+    position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+  position: fixed;
+}
+
 .card-photo > img {
     margin-bottom: auto;
     display: block;
-    margin-left: 25%;
+    margin-left: 40%;
     margin-right: auto;
-    width: 90%;
-    opacity: 0.9;
+    width: 50%;
+    opacity: 10;
     position: relative;
   height: 20%;
   border-radius: 30px;
   border-style: solid;
-  border-color: #ffffff;
   bottom: 30%;
+  -webkit-box-shadow: -41px 15px 31px -7px rgba(0,0,0,0.88);
+-moz-box-shadow: -41px 15px 31px -7px rgba(0,0,0,0.88);
+box-shadow: -41px 15px 31px -7px rgba(0,0,0,0.88)
 
 
 
@@ -28,10 +38,10 @@ body{ background: rgb(93,72,108);
 
 .description {
     position: absolute;
-    left: 30px;
+    left: 170px;
   font-size: 18px;
   color: rgb(249, 249, 251);
-  bottom: 30%;
+  bottom: 15%;
   
 
 }
@@ -120,9 +130,15 @@ font-weight: 900;
 .pe {
     position: absolute;
     align-items: center;
-    left: 350px;
     display: flex;
-    font-size: 30px;
+    flex-direction: column-reverse;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    
 
 }
 
@@ -157,27 +173,49 @@ font-weight: 900;
 }
 
 
-.buttoon > button {
-    left: 1250px;
+.buttoon { 
     position: absolute;
-    align-items: left;
+    bottom: 8px;
+    right: 50px; 
     display: flex;
-    font-size: 30px;
-    border-radius: 30px;
-}
-
-.buttoon > .button2 {
-    left: 1200px;
+    flex-direction: row;
     
 }
 
 
-.buttoon> button {
-    transition-duration: 0.4s;
-  }
-  
-  .buttoon> button:hover {
-    background-color: #051205; /* Green */
-    color: rgb(93,72,108);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(55,2,71,1) 50%, rgba(0,0,0,1) 100%);
-  }
+.buttoon > a {
+
+    border-radius: 100%;
+    font-size: 25px;
+    border-style: solid;
+    text-decoration: none;
+    border-color: #ffffff7e;
+    color: #ffffffcf;
+    padding-left: 15%;
+    padding-right: 15%;  
+    
+}
+
+
+
+
+
+
+.explore >a {
+    border-color: #ffffff4d;
+    color: #ffffff66;
+    width: 250px;
+    bottom: 8px;
+    left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+
+
+
+
+
+    
+
